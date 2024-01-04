@@ -1,0 +1,14 @@
+[package]
+name = "war-rs"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/ivabus/WAR.rs"
+authors = [ "Ivan Bushchik <ivabus@ivabus.dev>" ]
+license = "MIT"
+description = "Automatic encoder of \"1-bit\" WAVE files with LUFS calculation"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ebur128 = "0.1.8"
+wav = "1.0.0"
